@@ -13,6 +13,7 @@ class Song
     @@artists.push(artist)
   end
   
+<<<<<<< HEAD
   def self.genres
     @@genres.uniq
   end
@@ -52,4 +53,19 @@ class Song
     end
   return hash
   end
+=======
+  def genres
+    @@genres.uniq
+  end
+  
+  def artists
+    @@artist.uniq
+  end
+  
+  def count
+    @@count
+  end
+  
+
+>>>>>>> b099ffc436fc006d9ac3b080ee83a596045da6a5
 end
